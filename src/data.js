@@ -1,5 +1,8 @@
 import { IoCodeWorking, IoLogoFacebook, IoLogoGithub, IoLogoLinkedin, IoLogoTwitter, IoLogoYoutube } from "react-icons/io5"
 import img1 from "./assets/image/learning.png"
+import movie from "./assets/image/movie.png"
+import CV from "./assets/image/CV_Nguyen_Van_Cao_Frontend_Dev.pdf"
+
 export const Experience = [
     {
         id:1,
@@ -39,10 +42,10 @@ export const Project = [
     },
     {
         id:2,
-        name: "E-learning",
-        imgSrc: img1,
-        techs:"ReactJS, Redux, tailwind",
-        github: "#"
+        name: "Movie",
+        imgSrc: movie,
+        techs:"ReactJS",
+        github: "https://portflolio-bhmnil2i2-taika123.vercel.app"
     },
     {
         id:3,
@@ -91,4 +94,12 @@ export const SocialLink = [
         name:"Facebook",
         link: "#"
     },
+]
+
+
+export const downCV = [
+    {
+        id:1, 
+        link: CV
+    }
 ]

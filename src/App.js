@@ -10,7 +10,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { Experience, SocialLink } from "./data";
+import { downCV, Experience, SocialLink } from "./data";
 import { Project } from "./data";
 import { AnimatePresence, motion } from "framer-motion"
 
@@ -56,7 +56,7 @@ function App() {
               <a
                 href="/download"
                 alt="download"
-                download="download"
+                download={downCV}
                 className="ml-auto text-base text-textBase font-medium hover:text-slate-200 cursor-pointer border border-textBase hover:border-textBase px-2 py-1 rounded-xl"
               >
                 Download
